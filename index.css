@@ -1,0 +1,56 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(#F08F90, #672422);
+    text-align: center;
+}
+
+#hero {
+    background-image: url("tokyo10.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: red;
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+.hero-text {
+    text-shadow: 3px 3px green;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tokyo-image {
+    width: 350px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.title-text {
+    color: #dfe1ef;
+    font-weight: bold;
+}
+
+#guide-card {
+    display: flex;
+    width: 800px;
+    height: 300px;
+    justify-content: space-around;
+    margin: 20px auto;
+    text-align: center;
+    padding: 20px;
+    background: #1D3557;
+    font-size: 23px;
+}
+
+#disclaimer {
+    width: 30%;
+    margin: 20px auto;
+}
